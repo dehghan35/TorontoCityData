@@ -1,0 +1,10 @@
+##############################################################################
+GoogleMapPlotter(self, center_lat, center_lng, zoom)
+####################
+The initial zoom for the maps is an integer, with the following as the guideline:
+1: World
+5: Landmass/continent
+10: City
+15: Streets
+20: Buildings
+##############################################################################
