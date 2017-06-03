@@ -22,7 +22,7 @@ should already come with your Python install, if not install them manually using
 
 Location Class [LocationClass]
 
-Location Convertor [LocationConvertor] (input_location)
+Location Converter [LocationConverter] (input_location)
 
 Input: The input can be either a text string format of address, or a list of two elements, indicating a longitude/ Latitude. Ex: "123 Main St. West, Toronto" Or [23.1234,-65.32].
 
