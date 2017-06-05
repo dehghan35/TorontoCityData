@@ -20,11 +20,9 @@ from SchoolClass import SchoolClass;
 #
 #
 
-school = SchoolClass('1');
-print school.x;
+school = SchoolClass('3665 Arista Way',22);
+print school.Name;
 
-school = SchoolClass('2');
-print school.x;
 
 # LocationObject = LocationClass();
 # print LocationObject.LocationConverter("oiwjeoifjwojef");

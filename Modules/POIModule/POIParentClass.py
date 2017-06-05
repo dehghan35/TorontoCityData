@@ -19,11 +19,27 @@ class POIParentClass:
     def DensityWithinRadius(self): pass
     @abstractproperty
     def NumberWithinRadius(self): pass
+    @abstractproperty
+    def ClosestToOrigin(self): pass
 
 
     ###################################################### Abstract Methods
     @abstractmethod
     def __init__(self):pass
-
     @abstractmethod
-    def SetName(self,input_Mylocation,input_Radius):pass
+    def SetName(self):pass
+    @abstractmethod
+    def SetOrigin(self):pass
+    @abstractmethod
+    def SetRadiusFromOrigin(self):pass
+    @abstractmethod
+    def SetDensityWithinRadius(self):pass
+    @abstractmethod
+    def SetNumberWithinRadius(self):pass
+    @abstractmethod
+    def SetClosestToOrigin(self):pass
+
+
+
+
+    # End
