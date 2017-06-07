@@ -20,7 +20,7 @@ from SchoolClass import SchoolClass;
 #
 #
 
-school = SchoolClass('3665 Arista Way',22);
+school = SchoolClass([43.649522,-79.379598],22);
 print school.Name;
 
 

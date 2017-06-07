@@ -35,10 +35,12 @@ class LocationClass:
     # def DistanceCalculater(self,input_PrimaryLocation,input_SecondaryLocations):
     #     Response = {};
     #     status = False;
-    #     Value = [None,None];
+    #     Value = [];
     #     ErrorMsg = None;
+    #     for i in range(0,len(input_SecondaryLocations)):
+    #         print input_SecondaryLocations(i);
     # ############################################################################
-    #
+
     # ############################################################################
     # def DensityCalculater(self,input_PrimaryLocation,input_SecondaryLocations,input_Radius):
     #     Response = {};

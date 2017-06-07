@@ -33,9 +33,7 @@ class POIParentClass:
     @abstractmethod
     def SetRadiusFromOrigin(self):pass
     @abstractmethod
-    def SetDensityWithinRadius(self):pass
-    @abstractmethod
-    def SetNumberWithinRadius(self):pass
+    def SetNumberAndDensityWithinRadius(self):pass
     @abstractmethod
     def SetClosestToOrigin(self):pass
 
