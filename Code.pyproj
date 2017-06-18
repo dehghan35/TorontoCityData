@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9ea3c83b-a5ac-49a8-a577-bdd281baef9a}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\DataBasePathName.txt" />
+    <Content Include="Documentation\MapsDocs.txt" />
+    <Content Include="mymap.html" />
+    <Content Include="README.txt" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.py" />
+    <Compile Include="Modules\LocationModule\LocationClass.py" />
+    <Compile Include="Modules\NearMeModule\NearMe.py" />
+    <Compile Include="Modules\POIModule\POIParentClass.py" />
+    <Compile Include="Modules\POIModule\SchoolClass.py" />
+    <Compile Include="Temp.py" />
+    <Compile Include="Utility\IO.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Documentation" />
+    <Folder Include="Modules\" />
+    <Folder Include="Modules\LocationModule" />
+    <Folder Include="Modules\NearMeModule" />
+    <Folder Include="Modules\POIModule" />
+    <Folder Include="Utility" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

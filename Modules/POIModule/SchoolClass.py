@@ -29,6 +29,7 @@ class SchoolClass(POIParentClass):
         self.DataBase = IO();
         self.Location = LocationClass();
         self.DataBase.DataIO_DataBase(DataBasePath);
+        self.LocationObject = LocationClass();
         ############################################## Get all data once
         Query = "Select * From school;";
         self.AllData  = self.DataBase.DataBase_Select_ReturnAll(Query);
@@ -67,7 +68,7 @@ class SchoolClass(POIParentClass):
     ############################################################################
     def SetNumberAndDensityWithinRadius(self):
         # Extract the lat and long from the data
-        print self.school_Name[0];
+        self.LocationObject.NumberAndDensityCalculater(self.Origin,self.school_LatLon,self.RadiusFromOrigin);
         pass;
     ############################################################################
 

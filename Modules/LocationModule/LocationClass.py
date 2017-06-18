@@ -41,14 +41,16 @@ class LocationClass:
     #         print input_SecondaryLocations(i);
     # ############################################################################
 
-    # ############################################################################
-    # def DensityCalculater(self,input_PrimaryLocation,input_SecondaryLocations,input_Radius):
-    #     Response = {};
-    #     status = False;
-    #     Value = [None,None];
-    #     ErrorMsg = None;
-    # ############################################################################
-    #
+     ############################################################################
+    def NumberAndDensityCalculater(self,input_primarylocation,input_secondarylocations,input_radius):
+         response = {};
+         status = False;
+         value = [none,none];
+         errormsg = none;
+         # Calculate the distance between the origin and all the latlong in the list
+
+     ############################################################################
+
     # ############################################################################
     # def ClosestToLocationX(self,input_LocationX,input_ListOfLocations):
     #     Response = {};
